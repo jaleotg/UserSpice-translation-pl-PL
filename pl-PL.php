@@ -106,7 +106,7 @@ $lang = array_merge($lang,array(
 		"GEN_VERIFY"			=> "Weryfikuj",
 		"GEN_SESSION"			=> "Sesja",
 		"GEN_SESSIONS"		=> "Sesje",
-		"GEN_EMAIL"				=> "Email",
+		"GEN_EMAIL"				=> "e-mail",
 		"GEN_FNAME"				=> "Imię",
 		"GEN_LNAME"				=> "Nazwisko",
 		"GEN_UNAME"				=> "Nazwa użytkownika",
@@ -124,7 +124,7 @@ $lang = array_merge($lang,array(
 		"GEN_NUMBER"			=> "numer",
 		"GEN_NUMBERS"			=> "numery",
 		"GEN_INFO"				=> "Informacja",
-		"GEN_REC"					=> "Recapisane",
+		"GEN_REC"					=> "Zapisane",
 		"GEN_DEL"					=> "Usuń",
 		"GEN_NOT_AVAIL"		=> "Nie Dostępne",
 		"GEN_AVAIL"				=> "Dostępne",
@@ -170,7 +170,7 @@ $lang = array_merge($lang,array(
 		"T_DAYS"			=> "Dni",
 		"T_DAY"				=> "Dzień",
 		"T_HOURS"			=> "Godzin",
-		"T_HOUR"			=> "Gdzina",
+		"T_HOUR"			=> "Godzina",
 		"T_MINUTES"		=> "Minut",
 		"T_MINUTE"		=> "Minuta",
 		"T_SECONDS"		=> "Sekund",
@@ -195,14 +195,14 @@ $lang = array_merge($lang,array(
 	$lang = array_merge($lang,array(
 		"JOIN_SUC"			=> "Witaj w ",
 		"JOIN_THANKS"		=> "Dziękujemy za rejestrację!",
-		"JOIN_HAVE"			=> "przynamniej",
+		"JOIN_HAVE"			=> "przynajmniej",
 		"JOIN_CAP"			=> " duża litera",
 		"JOIN_TWICE"		=> "wpisz poprawnie dwukrotnie",
-		"JOIN_CLOSED"		=> "Rejestracja wstrzymana w tej chwili. Skontaktuj się z administratorem, jeśli masz jakieś pytania lub zastzeżenia.",
-		"JOIN_TC"				=> "Definicje oraz Warunki rejestacji",
-		"JOIN_ACCEPTTC" => "Akceptuję definicje oraz Warunki rejestacji",
-		"JOIN_CHANGED"	=> "Nasze definicje oraz warunki uległy zmianie",
-		"JOIN_ACCEPT" 	=> "Zaakceptuj definicje oraz warunki aby kontynuować",
+		"JOIN_CLOSED"		=> "Rejestracja wstrzymana w tej chwili. Skontaktuj się z administratorem, jeśli masz jakieś pytania lub zastrzeżenia.",
+		"JOIN_TC"				=> "Definicje oraz Warunki rejestracji",
+		"JOIN_ACCEPTTC" => "Akceptuję definicje oraz Warunki rejestracji",
+		"JOIN_CHANGED"	=> "Nasze zasady i warunki uległy zmianie",
+		"JOIN_ACCEPT" 	=> "Zaakceptuj zasady oraz warunki aby kontynuować",
 		));
 
 		//Sessions
@@ -215,7 +215,7 @@ $lang = array_merge($lang,array(
 		"MSG_SENT"			=> "Twoja wiadomość e-mail została wysłana!",
 		"MSG_MASS"			=> "Twoja wiadomość zbiorowa została wysłąna",
 		"MSG_NEW"				=> "Nowa wiadomość",
-		"MSG_NEW_MASS"	=> "Nowa wiadomość zbiorowae",
+		"MSG_NEW_MASS"	=> "Nowa wiadomość zbiorowa",
 		"MSG_CONV"			=> "Konwersacje",
 		"MSG_NO_CONV"		=> "Brak konwersacji",
 		"MSG_NO_ARC"		=> "Brak konwersacji",
@@ -267,12 +267,12 @@ $lang = array_merge($lang,array(
 
 	//Redirect Messages - These get a plus between each word
 	$lang = array_merge($lang,array(
-		"REDIR_2FA"						=> "Przepraszamy.Tym+Razem+autoryzacja+dwuetapowa+jest+niedostepna",
+		"REDIR_2FA"						=> "Przepraszamy.+Tym+Razem+autoryzacja+dwuetapowa+jest+niedostepna",
 		"REDIR_2FA_EN"				=> "Autoryzacja+dwuetapowa+włączona+ON",
 		"REDIR_2FA_DIS"				=> "Autoryzacja+dwuetapowa+wyłączona+OFF",
 		"REDIR_2FA_VER"				=> "Autoryzacja+dwuetapowa+zweryfikowana+i+włączona+ON",
-		"REDIR_SOM_TING_WONG" => "Coś+pszło+źle.+Spróbuj+ponownie.",
-		"REDIR_MSG_NOEX"			=> "Wątek+nie+należy+do+ciebie+lub+nie+istnieje.",
+		"REDIR_SOM_TING_WONG" => "Coś+poszło+źle.+Spróbuj+ponownie.",
+		"REDIR_MSG_NOEX"			=> "Wątek+nie+należy+do+Ciebie+lub+nie+istnieje.",
 		"REDIR_UN_ONCE"				=> "Już+raz+dokonano+zmiany+nazwy+użytkownika.",
 		"REDIR_EM_SUCC"				=> "email+poprawnie+zaktualizowany",
 		));
@@ -307,11 +307,11 @@ $lang = array_merge($lang,array(
 			"VER_FAIL"		=> "Nie można było zweryfikować Twojego konta. Proszę spróbuj ponownie.",
 			"VER_RESEND"	=> "Wyślij ponownie e-mail veryfikacyjny",
 			"VER_AGAIN"		=> "Wprowadź swój adres e-mail i spróbuj ponownie.",
-			"VER_PAGE"		=> "<li>Sprawdż maila i kliknij w link</li><li>Gotowe</li>",
+			"VER_PAGE"		=> "<li>Sprawdź maila i kliknij w link</li><li>Gotowe</li>",
 			"VER_RES_SUC" => "<p>Link weryfikacyjny został wysłany na twój e-mail .</p><p>Kliknij na link w mailu aby dokończyć proces weryfikacyjny. Jeśli nie dostałeś maila sprawdź w folderze spam.</p><p>Link weryfikacyjny jest ważny tylko przez  ",
 			"VER_OOPS"		=> "Oops...coś poszło źle, Czy przypadkiem nie kliknąłeś w stary link weryfikacyjny? Kliknij poniżej aby spróbować ponownie",
 			"VER_RESET"		=> "Twoje hasło zostało zmienione!",
-			"VER_INS"			=> "<li>Wprowadź adres e-ail i kliknij Reset</li> <li>Sprawdź e-mail i kliknij na wysłany Ci link.</li>
+			"VER_INS"			=> "<li>Wprowadź adres e-mail i kliknij Reset</li> <li>Sprawdź e-mail i kliknij na wysłany Ci link.</li>
 												<li>Podążaj za poleceniami na ekranie</li>",
 			"VER_SENT"		=> "<p>Link do resetu hasła został wysłany na Twój e-mail.</p>
 			    							<p>Kliknij link w mailu aby ustawić nowe hasło. Jeśli nie dostałeś maila sprawdź w folderze spam.</p><p>Link do zmiany hasła ważny tylko ",
@@ -347,21 +347,21 @@ $lang = array_merge($lang,array(
 		"ERR_EMAIL"				=> "E-mail nie został wysłany z powodu błędu. Powiadom administratora strony.",
 		"ERR_EM_DB"				=> "e-mail nie istnieje w naszej bazie",
 		"ERR_TC"					=> "Proszę, przeczytaj i zaakceptuj zasady i warunki",
-		"ERR_CAP"					=> "Nie przeszedłeś human testu. Czyjesteś Robotem?",
+		"ERR_CAP"					=> "Nie przeszedłeś human testu. Czy Ty jesteś Robotem?",
 		"ERR_PW_SAME"			=> "Twoje nowe hasło nie może pokrywać się ze starym.",
-		"ERR_PW_FAIL"			=> "Weryfikacja obecnego hasła nie powiodłą się. Aktualizacj anie powiodła się. Please try again.",
-		"ERR_GOOG"				=> "<strong>ADNOTACJA:</strong> Jeśli Twoje konto zostało założone poprzez Google/Facebook, proszę użyj linku zapomniałem hasła aby zmienić hasło ...chyba że dobze potrafisz odgadywać hasła.",
+		"ERR_PW_FAIL"			=> "Weryfikacja obecnego hasła nie powiodła się. Aktualizacja nie powiodła się. Proszę spróbuj ponownie.",
+		"ERR_GOOG"				=> "<strong>ADNOTACJA:</strong> Jeśli Twoje konto zostało założone poprzez Google/Facebook, proszę użyj linku zapomniałem hasła aby zmienić hasło ...chyba że potrafisz dobrze odgadywać hasła.",
 		"ERR_EM_VER"			=> "Weryfikacja e-mail wyłączona Skontaktuj się z Administratorem.",
-		"ERR_EMAIL_STR"		=> "Cośdziwnego się stało. Proszę zweryfikuj e-mail ponownie.Przepraszamy za niedogodność",
+		"ERR_EMAIL_STR"		=> "Coś dziwnego się stało. Proszę zweryfikuj e-mail ponownie. Przepraszamy za niedogodność",
 
 		));
 
 	//Maintenance Page
 	$lang = array_merge($lang,array(
 		"MAINT_HEAD"		=> "Wkrótce wrócimy!",
-		"MAINT_MSG"			=> "Przepraszamy za nedogodność, ale właśnie przbudowujemu tu coś. <br> Wkrótce bedziemy online!",
+		"MAINT_MSG"			=> "Przepraszamy za niedogodność, ale właśnie przbudowujemu tu coś w kodzie strony. <br> Wkrótce bedziemy online!",
 		"MAINT_BAN"			=> "Przepraszamy ale jesteś zablokowany. Jeśli myślisz że to pomyłka, powiadom administratora.",
-		"MAINT_TOK"			=> "W Twoim formularzu wystąpił błąd. Proszę wróć i spróbuj ponownie. Odświerzenie tej strony może spowodować błąd. Jeśli to się zdaży ponownie, powiadom administratora.",
+		"MAINT_TOK"			=> "W Twoim formularzu wystąpił błąd. Proszę wróć i spróbuj ponownie. Odświeżenie tej strony może spowodować błąd. Jeśli to się zdarzy ponownie, powiadom administratora.",
 		"MAINT_OPEN"		=> "Otwartoźródłowy szkielet zarządzania użytkownikami. (An Open Source PHP User Management Framework)",
 		"MAINT_PLEASE"	=> "Gratulacje! Instalacja UserSpice przebiegła pomyślnie!<br>Zapraszamy na stronę z dokumentacją:"
 		));
@@ -397,7 +397,7 @@ $lang = array_merge($lang,array(
 "BE_REG"					=> "Rejestracja",
 "BE_CUS"					=> "Ustawienia własne",
 "BE_DASH_ACC"			=> "Dostęp do panelu",
-"BE_TOOLS"				=> "Tools",
+"BE_TOOLS"				=> "Narzędzia",
 "BE_BACKUP"				=> "Kopia zapasowa",
 "BE_UPDATE"				=> "Aktualizacja",
 "BE_CRON"				  => "Zadania Cron",
